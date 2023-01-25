@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border: 1px solid white;
+}
+nav{
+    width: 100%;
+    height: 12%;
+    background-color: hsl(123, 61%, 29%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav .nav-middle{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+
+}
+.nav-middle h3:hover{
+    background-color: darkgreen;
+
+}
+.nav-middle input{
+    font-size: 1.5vmax;
+    margin-left: 2vmax;
+}
+.nav-middle .i{
+    transform: translateX(-3vmax );
+    color: black;
+    padding-top: 0.5vmax;
+    
+}
+.nav-middle span{
+    background-color: white;
+    color: red;
+    padding: 0.2vmax;
+}
+.nav-middle .i{
+    color: black;
+    z-index: 1;
+}
+.mobile-middle i{
+    display: none;
+}
+nav .nav-right{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.nav-right i{
+    font-size: 2vmax;
+    color: white;
+    padding: 0vmax 1.5vmax;
+}
+.white .sub-white{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+.white:hover .sub-white{
+    display: flex;
+    position: absolute;
+    color: black;
+    margin-left: -16vmax;
+    margin-top: 0.5vmax;
+}
+.women .sub-white{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+.women:hover .sub-white{
+    display: flex;
+    position: absolute;
+    color: black;
+    margin-left: -21vmax;
+    margin-top: 0.5vmax;
+}
+.white1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.white2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.white3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.white4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.white5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.img .img1{
+    
+    display: none;
+}
+.img .img1 img{
+    width: 50vmax;
+    height: 38vmax;
+    border: 2px solid white;
+}
+.img:hover .img1{
+    display: flex;
+    position: absolute;
+    margin-top: 0.6vmax;
+    margin-left: -30vmax;
+}
+
+.login .sign{
+
+    display: none;
+}
+.login:hover .sign{
+    display: block;
+    
+    position: absolute;
+    color: white;
+    margin-top: 2vmax;
+    background-color: black;
+    border: 1px solid white;
+}
+.page1 .mob-middle1{
+    display: none;
+}
+.page1 .image {
+    width: 100%;
+    height: 88%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    background-image: url(https://content.woodlandworldwide.com/static/images/banners/1001/b-wtbtn-sale-explore-1001-0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: image 25s linear 5s infinite;
+}
+.page1 .image i{
+font-size: 4vmax;
+color: hsl(123, 61%, 29%);
+position: fixed;
+}
+@keyframes image {
+    0%{
+        background-image: url(https://content.woodlandworldwide.com/static/images/banners/1001/b-wtbtn-sale-explore-1001-0.png);
+    }
+    20%{
+        background-image: url(https://content.woodlandworldwide.com/static/images/banners/1001/b-wtbtn_apparels_1-1001-0.jpg);
+    }
+    40%{
+        background-image: url(https://content.woodlandworldwide.com/static/images/banners/1001/b-wtbtn_footwear_1-1001-1.jpg);
+    }
+    60%{
+        background-image: url(https://content.woodlandworldwide.com/static/images/banners/1001/b-wtbtn-canvas_1-1001-2.jpg);
+    }
+    80%{
+        background-image: url(https://content.woodlandworldwide.com/static/images/banners/1001/b-wtbtn_woodsport_1-1001-3.jpg);
+    }
+    
+}
+.image img{
+width: 100%;
+height: 100%;
+}
+.page2{
+    width: 100%;
+    height: 120%;
+    background-color: beige;
+}
+.page2 .product{
+width: 100%;
+height: 40%;
+background-color:aquamarine;
+display: flex;
+
+}
+.product .image{
+    width: 25%;
+height: 100%;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid white;
+}
+.image img{
+width: 50%;
+height: 50%;
+cursor: pointer;
+
+}
+.image h2{
+    color: white;
+    margin-top: 0.5vmax;
+    cursor: pointer;
+}
+.image h4{
+    color: white;
+    margin-top: 0.5vmax;
+    opacity: 0;
+    cursor: pointer;
+}
+.product .image:hover h4{
+    opacity: 1;
+    
+}
+.product .image:hover{
+    background-color: hsl(123, 61%, 29%);
+}
+.page2 .image5{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    background-image: url(https://content.woodlandworldwide.com/static/images/banners/1003/b-jackets-1003-1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+ .image5 .matter{
+    margin-right: 5vmax;
+    margin-top: -7vmax;
+    line-height: 3.5vmax;
+}
+ .matter h1{
+    color: white;
+    font-size: 3vmax;
+    font-weight: 100;
+}
+ .matter h2{
+    color: white;
+    font-size: 4vmax;
+    font-weight: 400;
+
+}
+ .matter p{
+    color: white;
+    font-size:1.5vmax ;
+    margin: 1vmax 0vmax;
+}
+ .matter button{
+    color: white;
+    background-color: hsl(123, 61%, 29%);
+    font-size: 1.9vmax;
+    padding: 1vmax 2vmax;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.page3{
+    width: 100%;
+    height: 120%;
+background-color: red;
+border: 1px solid white;
+}
+.page3 .image6{
+    width: 100%;
+height: 50%;
+background-color: green;
+display: flex;
+}
+.image6 .image-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(https://content.woodlandworldwide.com/static/images/banners/1004/b-trekking-1004-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image-left .matter{
+    width: 40%;
+    
+    margin-right: 2vmax;
+    line-height: 3vmax;
+}
+.image-left .matter p{
+    line-height: 1.5vmax;
+}
+.image6 .image-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(https://content.woodlandworldwide.com/static/images/banners/1004/b-bags-1004-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image-right .matter{
+    width: 40%;
+    
+    margin-right: 2vmax;
+    line-height: 3vmax;
+}
+.image-right .matter p{
+    line-height: 1.5vmax;
+}
+.page3 .image7{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+background-image: url(https://content.woodlandworldwide.com/static/images/banners/1005/b-research-lab-1005-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.image7 .matter{
+    width: 40%;
+    
+    margin-right: 5vmax;
+    line-height: 3vmax;
+}
+.image7 .matter p{
+    line-height: 1.5vmax;
+}
+.page4{
+width: 100%;
+height: 130%;
+
+}
+.page4 .image-top{
+width: 100%;
+height: 50%;
+display: flex;
+background-image: url(https://content.woodlandworldwide.com/static/images/banners/1008/b-pro-1008-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.image-top .matter{
+    width: 40%;
+    
+    margin: 5vmax;
+    line-height: 3vmax;
+}
+.image-top .matter h1{
+    font-size: 3vmax;
+}
+.image-top .matter h2{
+    font-weight: 100;
+}
+.image-top .matter p{
+    line-height: 1.5vmax;
+}
+.page4 .image-down{
+width: 100%;
+height: 50%;
+display: flex;
+    justify-content: flex-end;
+    align-items: center;
+background-image: url(https://content.woodlandworldwide.com/static/images/banners/1006/b-lookbook-1006-3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.image-down .matter{
+    margin-right: 9vmax;
+    margin-top: -7vmax;
+    line-height: 3.5vmax;
+}
+.page5{
+    width: 100%;
+    height: 110%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.page5 .top{
+    width: 90%;
+    height: 20%;
+    line-height: 2vmax;
+    margin: 2vmax 5vmax;
+}
+.page5 .top h1{
+    font-size: 3vmax;
+    font-weight: 50;
+    margin: 1vmax 0vmax;
+}
+.page5 .middle{
+    width: 90%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vmax;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 1vmax;
+    /* align-items: center; */
+}
+.page5 .middle h2{
+    margin: 1vmax 0vmax;
+}
+.page5 .middle h3{
+    font-weight: 50;
+    margin: 0.8vmax 0vmax;
+    cursor: pointer;
+}
+.middle .middle1{
+    width: 20%;
+    height: 90%;
+}
+.middle .middle2{
+    width: 20%;
+    height: 90%;
+}
+.middle .middle3{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+.middle3 .middle3-top{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.middle .middle3-down{
+    width: 80%;
+    /* margin-bottom: 2vmax; */
+    
+}
+.middle .middle3-down input{
+    font-size: 1vmax;
+    padding: 0.5vmax 0.5vmax;
+    padding-left: 2vmax;
+}
+.middle .middle3-down button{
+    padding: 0.7vmax 1vmax;
+    background-color:hsl(123, 61%, 29%) ;
+}
+
+.page5 .footer{
+    width: 90%;
+    height: 10%;
+    margin: 3vmax;
+}
+.footer i{
+    margin: 1vmax 1.5vmax;
+    font-size: 3vmax;
+}
+
+
+
+@media (max-width:600px) {
+    nav .nav-middle{
+        display: none;
+    }
+    .page1{
+        width: 100%;
+        height: 40%;
+        background-color: red;
+        border: 1px solid white;
+    }
+    nav{
+        height: 20%;
+    }
+    .page1 .image{
+        height: 80%;
+    }
+   
+    .mobile-middle i{
+        display: initial;
+        color: white;
+        font-size: 3vmax;
+    }
+    .page1 .mob-middle1{
+        
+        width: 85%;
+        height: 32%;
+        background-color: rgb(33, 71, 33);
+        position: absolute;
+        color: white;
+        margin-right: 4vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        transform: translateX(-120%);
+        transition: 0.5s;
+        font-size: 2vmax;
+
+    } 
+    .white .sub-white{
+        /* width: 70%; */
+        /* height: 100%; */
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+        overflow: scroll;
+    }
+   
+   
+   .page1 .image img{
+    width: 100%;
+    height: 100%;
+    }
+    .page2{
+        height: 160%;
+    }
+    .page2 .product{
+    height: 80%;
+    flex-direction: column;
+     }
+    .product .image{
+        width: 100%;
+    height: 25%;
+    }
+    .page2 .image img{
+    width: 60%;
+    height: 60%;
+    }
+    .page2 .image5{
+        height: 20%;
+    }
+     .image5 .matter{
+      margin-top: 9vmax;
+    }
+     .matter p{
+        display: none;
+       }
+       .page3{
+        height: 100%;
+       }
+    .page3 .image6{
+       height: 75%;
+    flex-direction: column;
+    }
+    .image6 .image-left{
+        width: 100%;
+        height: 50%;
+    }
+    .image-left .matter{
+        margin-top: -3vmax;
+        line-height: 4vmax;
+    }
+    .image6 .image-right{
+        width: 100%;
+        height: 50%;
+    }
+    .image-right .matter{
+       line-height: 4vmax;
+    }
+    .image-right .matter p{
+        line-height: 1.5vmax;
+    }
+    .page3 .image7{
+        height: 25%;
+       }
+    .image7 .matter{
+        line-height: 4vmax;
+    }
+    .page4 .image-top{
+        background-position: right 30% bottom 40%;
+    }
+   .page4{
+     height: 50%;
+     }
+    .image-top .matter{
+       line-height: 4vmax;
+    }
+    .page4 .image-down{
+        background-position:  30%;
+    }
+    .image-down .matter button{
+        width: 70%;
+    }
+    .image-down .matter h1{
+        font-size: 2vmax;
+    }
+    .image-down .matter h2{
+        font-weight: 100;
+        font-size: 3vmax;
+    }
+    .image-down .matter{
+         line-height: 4vmax;
+         margin-right: -7vmax;
+         
+
+    }
+    .page5{
+        width: 100%;
+        height: 130%;}
+   .page5 .top{
+        height: 7%;
+       text-align: center;
+    }
+    .page5 .middle{
+        height: 86%;
+       flex-direction: column;
+        border-bottom: none;
+         text-align: center;
+    }
+    .page5 .middle h3{
+        margin: 0.9vmax 0vmax;
+    }
+    .middle .middle1{
+        width: 90%;
+        height: auto;
+    }
+    .middle .middle2{
+        width: 90%;
+        height: auto;
+    }
+    .middle .middle3{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+       align-items: center;
+    }
+    .middle3 .middle3-top{
+        width: 90%;
+         flex-direction: column;  
+    }
+    .middle .middle3-down{
+        width: 90%;
+        margin-bottom: 0.5vmax;
+        }
+    .middle .middle3-down input{
+        font-size: 1.5vmax;
+    }
+   .page5 .footer{
+        width: 90%;
+        height: 7%;
+        margin: -1vmax;
+        text-align: center;
+    }
+   
+    
+}
